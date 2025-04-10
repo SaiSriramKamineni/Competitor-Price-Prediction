@@ -2,7 +2,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load('D:/2/competitor_price_prediction_model.pkl')
+model = joblib.load('competitor_price_prediction_model.pkl')
 
 st.title("💹 Competitor Price Prediction")
 
